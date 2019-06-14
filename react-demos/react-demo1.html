@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="node_modules/@babel/standalone/babel.js"></script>
+    <script src="node_modules/react/umd/react.development.js"></script>
+    <script src="node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script type="text/babel">
+        const numbers = [1,2,3,4,5];
+        /*const doubled = numbers.map(number =>{
+            return <li>{number}</li>
+        });*/
+
+        function ListItem(props){
+            return <li>{props.value}</li>
+        }
+        /*比方说，如果你提取 出一个 ListItem 组件，你应该把 key 保留在数组中的这个 <ListItem /> 元素上，而不是放在 ListItem 组件中的 <li> 元素上。*/
+        function NumberList(props){
+            const numbers = props.numbers;
+            return (<ul>
+                {numbers.map((number)=>{
+                    return <ListItem key={number.toString()} value={number}/>
+                })}
+            </ul>)
+        }
+        /*用key提取组件*/
+        /*function Blog(props){
+            const slidebar=(
+                <ul>
+                    {props.posts.map((post)=>{
+                        return <li key={post.id}>{post.title}</li>
+                    })}
+                </ul>
+            );
+            const content = props.posts.map((post)=>{
+                return (<div key={post.id}>
+                    <h3>{post.title}</h3>
+                    <p>{post.content}</p>
+                </div>)
+            });
+            return (
+              <div>
+                  {slidebar}
+                  <hr/>
+                  {content}
+              </div>
+            )
+        }
+        const posts = [
+            {id: 1, title: 'Hello World', content: 'Welcome to learning React!'},
+            {id: 2, title: 'Installation', content: 'You can install React from npm.'}
+        ];*/
+        ReactDOM.render(<NumberList numbers={numbers}/>,document.getElementById('app'));
+    </script>
+</body>
+</html>

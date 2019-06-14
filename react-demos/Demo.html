@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="node_modules/@babel/standalone/babel.js"></script>
+    <script src="node_modules/react/umd/react.development.js"></script>
+    <script src="node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script type="text/babel">
+        function Selects(props){
+            return (<div>
+                <select id="select">
+                    {props.entryData.map((item,index)=>{
+                        return <option value={item.data} key={index}>{item.name}</option>
+                    })}
+                </select>
+            </div>)
+        }
+        function CheckBox(props){
+            return (<ul>
+                {props.entryData.map((item,index)=>{
+                    return <li key={index}><input type="checkbox" name="test" value={item.data}/>{item.name}</li>
+                })}
+            </ul>)
+        }
+
+        class InputData extends React.Component{
+            constructor(){
+                super();
+                this.state = {
+                    entryData:[]
+                };
+                this.handleBlur = this.handleBlur.bind(this);
+                this.handleClick = this.handleClick.bind(this);
+            }
+            handleBlur(){
+                var indata = document.getElementById('inData').value;
+                if(indata=='')return;
+                let entryData = JSON.parse(indata);
+                this.setState({
+                    entryData:entryData
+                });
+
+            }
+            handleClick(){
+                var index = document.getElementById('select').selectedIndex;
+                var value = document.getElementById('select').options[index].value;
+                var checkboxs = document.getElementsByName('test');
+                var arr = [];
+                checkboxs.forEach((item)=>{
+                    if(item.checked){
+                        arr.push(item.value);
+                    }
+                });
+                var check = document.getElementById('check');
+                if(arr.indexOf(value)>-1){
+                    check.style.backgroundColor='green';
+                }else{
+                    check.style.backgroundColor='red';
+                }
+
+            }
+
+            render(){
+                let entryData = this.state.entryData;
+                let msgSelect=null;
+                let msgCheckbox=null;
+                let msgButton = null;
+                if(entryData){
+                    msgSelect = <Selects entryData={entryData}/>;
+                    msgCheckbox = <CheckBox entryData={entryData}/>;
+                    msgButton = <button onClick={this.handleClick} id="check">检查</button>
+                }else{
+                    msgSelect=null;
+                    msgCheckbox=null;
+                    msgButton=null;
+                }
+                return (
+                    <div>
+                        <input type="text" onBlur={this.handleBlur} id="inData"/>
+                        {msgSelect}
+                        {msgCheckbox}
+                        {msgButton}
+                    </div>
+                )
+            }
+        }
+        //let arr = [{"name":"张三","data":"a"},{"name":"李四","data":"b"},{"name":"老吴","data":"c"},{"name":"小黄","data":"d"}];
+        ReactDOM.render(<InputData/>,document.getElementById('app'))
+    </script>
+</body>
+</html>

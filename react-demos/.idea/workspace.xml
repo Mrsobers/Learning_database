@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28253eb0-ccd7-46c2-bd2b-afd40ac2bd31" name="Default Changelist" comment="面试题">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/react-demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asstes/11-class基本语法.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/loose-envify" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/loose-envify.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/standalone/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/standalone/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/standalone/babel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/standalone/babel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/standalone/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/standalone/src/babel-package-shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/standalone/src/generated/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/standalone/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/standalone/src/preset-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/standalone/src/preset-stage-0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/standalone/src/preset-stage-1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/standalone/src/preset-stage-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/standalone/src/preset-stage-3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@babel/standalone/src/transformScriptTags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-tokens/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-tokens/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-tokens/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-tokens/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-tokens/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/loose-envify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/loose-envify/replace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object-assign/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object-assign/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object-assign/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object-assign/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/checkPropTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/factoryWithThrowingShims.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/factoryWithTypeCheckers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/lib/ReactPropTypesSecret.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/prop-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prop-types/prop-types.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/build-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fire.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fire.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fire.profiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.browser.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.browser.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.node.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.node.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.profiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/profiling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/server.browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/server.node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/test-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-fire.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-fire.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-fire.profiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-fizz.browser.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-fizz.browser.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.profiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/unstable-fizz.browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/unstable-fizz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/unstable-fizz.node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-dom/unstable-native-dependencies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/build-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/cjs/react-is.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/cjs/react-is.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/umd/react-is.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react-is/umd/react-is.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/build-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/umd/react.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/umd/react.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/react/umd/react.profiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/build-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.profiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/tracing-profiling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/tracing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-tracing.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-tracing.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-tracing.profiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler.profiling.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-demo1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-this.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/.idea/todomvc-react-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/src/components/Section.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todomvc-react-app/src/serviceWorker.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-demo1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/react-demo1.html" />
+        <option value="$PROJECT_DIR$/react-demo1.html" />
+        <option value="$PROJECT_DIR$/class语法.html" />
+        <option value="$PROJECT_DIR$/Test.html" />
+        <option value="$PROJECT_DIR$/Demo.html" />
+        <option value="$PROJECT_DIR$/react-this.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="503" />
+    <option name="y" value="51" />
+    <option name="width" value="1308" />
+    <option name="height" value="961" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="react-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../todomvc-react" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebStorm\Webstormprogram\react-demos\asstes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebStorm\Webstormprogram\react-demos" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28253eb0-ccd7-46c2-bd2b-afd40ac2bd31" name="Default Changelist" comment="" />
+      <created>1560233554391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560233554391</updated>
+      <workItem from="1560233557472" duration="2071000" />
+      <workItem from="1560235722095" duration="13184000" />
+      <workItem from="1560303188317" duration="489000" />
+      <workItem from="1560304930131" duration="4000" />
+      <workItem from="1560333969683" duration="1227000" />
+      <workItem from="1560388062260" duration="4582000" />
+      <workItem from="1560422381949" duration="723000" />
+      <workItem from="1560477140584" duration="5988000" />
+      <workItem from="1560492415677" duration="1790000" />
+    </task>
+    <task id="LOCAL-00001" summary="面试题">
+      <created>1560484576897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560484576897</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30058000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="503" y="51" width="1308" height="961" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15590551" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.15354839" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32903227" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="面试题" />
+    <option name="LAST_COMMIT_MESSAGE" value="面试题" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node_modules/react-is/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-62">
+            <folding>
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/js-tokens/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-434" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class语法.html" />
+    <entry file="file://$PROJECT_DIR$/Test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#136#142#0" expanded="true" />
+            <element signature="e#142#148#0" expanded="true" />
+            <element signature="e#148#154#0" expanded="true" />
+            <element signature="e#154#160#0" expanded="true" />
+            <element signature="e#160#166#0" expanded="true" />
+            <element signature="e#166#172#0" expanded="true" />
+            <element signature="e#172#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-this.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
